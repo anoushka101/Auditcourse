@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 600px;
+  
+}
+
+img {
+        max-width: 100%;
+      }
+      .slider-container {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+      }
+      .menu {
+        position: absolute;
+        left: 0;
+        z-index: 200;
+        width: 100%;
+        bottom: 0;
+      }
+      .menu label {
+        cursor: pointer;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: #fff;
+        border-radius: 50px;
+        margin: 0 0.2em 1em;
+      }
+      .menu label:hover,
+      .menu label:focus {
+        background: #1c87c9;
+      }
+      .slide {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 10;
+        padding: 8em 1em 0;
+        background-size: cover;
+        background-position: 50% 50%;
+        transition: left 0s 0.75s;
+      }
+      [id^="slide"]:checked + .slide {
+        left: 0;
+        z-index: 100;
+        transition: left 0.65s ease-out;
+      }
+
+.slide-1{
+  background-image: url(https://wallpapercave.com/wp/wp2352852.jpg)
+}
+
+.slide-2{
+  background-image: url(https://www.goodfreephotos.com/albums/food/coffee-patterns-in-cup.jpg);
+}
+
+.slide-3{
+  background-image:url(https://images.unsplash.com/photo-1510972527921-ce03766a1cf1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80);
+}
+h1{
+  color:white;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  font-size: 80px;
+  margin-top: 110px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #1d150b;
+    background: #c49b63;
+    height: 500px;
+}
+.menu {
+  background-image: url("6a7cb051952ee18a_Starbucks_Espresso_Classics.xxxlarge.png");
+
+}
+.services {
+  margin-top: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  text-align: center;
+  width: 33.3333%;
+}
+
+.about{
+  text-align: center;
+  background-color: #965a3e;
+}
+
+/* Contact Section */
+#contact{
+    position: relative;
+    color: #3E3B39;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background-color: #F6ECE3;
+
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: px;
+    font-size: 15px;
+
+} 
+
+#contact-box form{
+    width: 40%;
+
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family:"Gill Sans", sans-serif;
+
+
+}
+
+#submit{
+  margin: 20px;
+  background-color: #555555;
+
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+
+}
+
+
+
+/* Style the footer */
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: none;
+
+}
+.div{
+  display: block;
+}
+.copyright{
+  color: #f2f2f2;
+  padding: 25px;
+}
